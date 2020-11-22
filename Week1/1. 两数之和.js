@@ -1,3 +1,4 @@
+// https://leetcode-cn.com/problems/two-sum/
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -22,3 +23,5 @@ var twoSum = function (nums, target) {
   //     result[nums[i]] = i;
   // }
 };
+
+twoSum([2, 7, 11, 15], 9); // => [0,1]

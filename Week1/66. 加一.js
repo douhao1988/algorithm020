@@ -1,3 +1,4 @@
+// https://leetcode-cn.com/problems/plus-one/
 /**
  * @param {number[]} digits
  * @return {number[]}
@@ -22,3 +23,5 @@ var plusOne = function (digits) {
     return digits;
   }
 };
+
+plusOne([1, 2, 3]); // => [1,2,4]

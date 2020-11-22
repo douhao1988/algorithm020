@@ -1,3 +1,4 @@
+// https://leetcode-cn.com/problems/move-zeroes/
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -38,3 +39,5 @@ var moveZeroes = function (nums) {
     index++;
   }
 };
+
+moveZeroes([0, 1, 0, 3, 12]); // => [1,3,12,0,0]
